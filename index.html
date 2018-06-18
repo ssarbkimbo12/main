@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!--meta name="viewport" content="width=device-width, initial-scale=1"-->
-
+	<link rel="stylesheet" type="text/css" href="./source/style.css">
 	<link rel="stylesheet" type="text/css" href="normalize.css">
-	<!--link rel="stylesheet" type="text/css" href="normalize.css"-->
-	<!--meta property="og:image" content="./section/thumbnail.jpg"-->
+	<meta property="og:image" content="./source/thumbnail.jpg">
 	<meta property="og:title" content="Harmony of two different architecture style">
 	<meta property="og:description" content="this site was made for introducing two different architecture style ">
 
@@ -30,269 +28,8 @@
   	});
 	});
 	</script>
-	
-	<style>
-		/*beige color:#f0ede3*/
-		/*red color:#aa2c13*/
-		/*gray color:#d5d6d4*/
-		/*yellow color:#FF9933*/
-
-		.style1 {font-family: 'Roboto Condensed', sans-serif;}
-		.style2 {font-family: 'EB Garamond',serif;}
-		body{background:white;}
-
-		.wrap{width: 1400px; margin:auto; position: relative; overflow: hidden;}
-
-		#back1{/*background:url("./source/section1.png");*/background-size: 100% auto; height: 1272px;}
-		#back2{/*background:url("./source/section2.png");*/background-size: 100% auto; height: 631px;}
-		#back3{/*background:url("./source/section3.png");*/background-size: 100% auto; height: 998px;}
-		#back4{/*background:url("./source/footer.png");*/background-size: 100% auto; height: 300px;}
-	
-
-			h1,h2{position:absolute; text-align:center;}
-			img,div,p,h1,h2{position:absolute;}
-
-		/*----------menu-----------------*/
-
-		a:link, a:visited, a:active{text-decoration: none; color:#f0ede3;}
-		
-
-		#nav1{width:700px; background:#aa2c13; margin:0; height:50px; position:fixed; z-index: 9999; left:0px; top:-42px;}
-		#nav1:hover{top:-15px;-webkit-transition: top 0.2s;
-    		-webkit-transition-timing-function: linear;}
-		#nav1 #mainNav{float:bottom; margin: 0;padding: 0; width: 200px;}
-		
-		#nav1 #mainNav li{float:left; width: 700px; list-style: none;}
-		
-		#nav1 #mainNav a{display:block; line-height: 60px; text-align: center;}
-		
-		#nav1 #menuItem {font-size: 1.3em;}
-
-		#menulist{background: green;}
-
-
-/*--------------------------------*/
-		#nav2 {width:700px; background:#aa2c13; margin:0;height:50px; position:fixed; z-index: 9999; right:0px; top:-42px;}
-		#nav2:hover{top:-15px;-webkit-transition: top 0.2s;
-    		-webkit-transition-timing-function: linear;}
-
-		#nav2 #mainNav2{float:bottom; margin: 0;padding: 0; width: 200px;}
-		
-		#nav2 #mainNav2 li{float:left; width: 700px; list-style:none;}
-		
-		#nav2 #mainNav2 a{display:block; line-height: 60px; text-align: center;}
-
-		#nav2 #menuItem2 {font-size: 1.3em;}
-/*----------------------------------*/
-
-		#nav3 {width:300px;  margin:0;height:35px; position:fixed; z-index: 9999; left:calc(50% - 50px); top:-55px;}
-		
-		#nav3:hover {top:-30px;-webkit-transition: top 0.2s;
-    		-webkit-transition-timing-function: linear;}
-
-		#nav3 #mainNav3{float:bottom; margin: 0;padding: 0; width: 200px;}
-		
-		#nav3 #mainNav3 li{float:left; width: 200px; list-style: none;}
-		
-		#nav3 #mainNav3 a{display:block; line-height: 30px;}
-		
-		#menuItem3 img {width:100px;}
-
-/*---------------------top-----------------------*/
-		#top{
-		position: fixed;
-		bottom:0;
-		right:-110px;
-		width:200px;
-		z-index: 9999
-	}
-
-	/*------------------section1--------------------*/
-    /*----------------------이미지------------------------*/
-    	#contents1 #section1_circle {width:728px; top:-300px; left:60px;
-    			-webkit-animation:mymove 2s;
-				animation: mymove 2s;}
-				@keyframes mymove{
-					from{top: -800px;}
-					to{top: -300px;}
-				}
-
-		#contents1 #section1_line {width:610px; top:190px; left:-60px;
-		-webkit-animation:mymove2 2s;
-				animation: mymove2 2s;}
-				@keyframes mymove2{
-					from{left: -400px;}
-					to{left: -60px;}
-				}
-
-		#contents1 #section1_img1 {width:1427px; top:3px; left:0px;}
-
-		#contents1 #section1_img2 {width:1427px; top:1px; left:-2px;
-		-webkit-animation:mymove3 2s;
-				animation: mymove3 2s;}
-				@keyframes mymove3{
-					from{top:20px;}
-					to{top:1px;}
-				}
-
-		#contents1 #section1_line2 {width:811px; top:520px; right:-20px;
-		-webkit-animation:mymove4 2s;
-				animation: mymove4 2s;}
-				@keyframes mymove4{
-					from{right:-1000px;}
-					to{right:-20px;}
-				}
-
-		#contents1 #section1_halfcircle {width:1354px; top:770px; left:0px;}
-
-		#contents1 #section1_textline1 {width:814px; top:908px; left:0px;
-		-webkit-animation:mymove5 6.5s;
-				animation: mymove5 6.5s;}
-				@keyframes mymove5{
-					from{left:-1000px;}
-					to{left:0px;}
-				}
-
-		#contents1 #section1_textline2 {width:1123px; top:1055px; right:0px;
-		-webkit-animation:mymove6 7s;
-				animation: mymove6 7s;}
-				@keyframes mymove6{
-					from{right:-1500px;}
-					to{right:0px;}
-				}
-
-
-    /*----------------------텍스트------------------------*/
-    	#contents1 h2{color: black; font-size: 2.5em; width:230px; top:805px; left:70px;height: 40px;}
-
-    	#contents1 h1{color:#aa2c13; font-size: 7.3em;}
-
-    	#contents1 #Twodifferent{width:710px; top:800px; left:50px;height: 110px;}
-
-    	#contents1 #architecturestyle{width:1000px; top:910px; right:50px;height: 110px;}
-
-
- /*----------------------section2-------------------------*/
-
-/*-----------------------이미지-----------------------------*/
-
-		#contents2 #section2_line1 {width:587px; top:50px; left:730px;}
-
-		#contents2 #section2_line2 {width:312px; top:330px; left:630px;}
-
-/*-----------------------텍스트-----------------------------*/
-		#contents2 #section2_p1 {background: #d5d6d4; font-size: 2em; width: 800px; height: 295px; text-align: justify; letter-spacing: -0.3px;top:10px;left:30px;line-height: 45px;}
-
-		#contents2 #section2_p2 {background: #d5d6d4; font-size: 2em; width: 800px; height: 160px; text-align: justify; letter-spacing: -0.3px;top:340px;right:30px;line-height: 45px;}
-
-		#contents2 #section2_title {color:#aa2c13;font-size: 3em; width: 100px; height: 40px; top:30; right: 80px;}
-
-
- /*----------------------section3-------------------------*/
-
-/*-----------------------이미지-----------------------------*/
-
-		#contents3 #section3_box1 {width:1212px; top:5px; left:-112px;}
-
-		#contents3 #section3_img1 {width:900px; top:60px; left:140px;}
-
-		#contents3 #hover1:hover #section3_box1 {opacity: 0.5;
-    	filter: alpha(opacity=50);}
-
-    	#contents3 #section3_arrow1 {width:45px; top:25px; left:550px;}
-
-    	#contents3 #hover1:hover #section3_arrow1 {left:30px;
-    		-webkit-transition: left 1.5s;
-    		-webkit-transition-timing-function: linear;}
-
-    	/*---------------------------------------------------------*/
-
-    	#contents3 #section3_box2 {width:1200px; top:20px; right:-10px;}
-
-		#contents3 #section3_img2 {width:720px; top:-240px; right:-150px;}
-
-		#contents3 #hover2:hover #section3_box2 {opacity: 0.5;
-    	filter: alpha(opacity=50);}
-
-    	#contents3 #section3_arrow2 {width:45px; top:335px; right:640px;}
-
-    	#contents3 #hover2:hover #section3_arrow2 {right:30px;
-    		-webkit-transition: right 1.5s;
-    		-webkit-transition-timing-function: linear;}
-/*-----------------------텍스트-----------------------------*/
-	   	#contents3 #section3_text1 {width:400px; height: 40px; color:#aa2c13; font-size: 1.8em; right: 80px; top:-10px;}
-
-	   	#contents3 #section3_text2 {width:400px; height: 40px; color:#aa2c13; font-size: 1.8em; left: 150px; top:305px;}
-
-/*----------------------section4-------------------------*/
-
-/*-----------------------도형-----------------------------*/
-		#contents4 #footer_box{width: 1400px; height: 280px; background:#aa2c13; top:20px;}
-
-		#contents4 #footer_line{width: 1400px; height: 5px; background:#aa2c13; top:12px;}
-
-		#contents4 #footer-text3 {color:#f0ede3;font-size: 1em; width: 500px; text-align: right; letter-spacing:2px;top:20px;right:30px;line-height: 35px;}
-
-		#contents4 #footer-text5 {color:#f0ede3;font-size: 2em; width: 800px; text-align: justify; letter-spacing:2px;top:50px;left:30px;line-height: 35px;}
-
-
-/*-----------------------텍스트-----------------------------*/
-
-
-  /*--------------------loader-------------------------
-    #loader {
-  position:fixed;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 24px;
-  height: 24px;
-  margin: -75px 0 0 -75px;
-  border: 5px solid #FF9933;
-  border-radius: 10%;
-  border-top: 5px solid #FF9933;
-  width: 25px;
-  height: 25px;
-  -webkit-animation: spin 1s linear infinite;
-  animation: spin 1.5s linear infinite;
-}
-
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-.animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 0.5s;
-  animation-name: animatebottom;
-  animation-duration: 0.5s
-}
-
-@-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:0.5 }
-}
-
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:0.5 }
-}
-
-#myDiv {
-  display: none;
-}*/
-		
-</style>
 
 </head>
-<body onload="myFunction()" style="margin:0;">
 
 <!--------------오디오-------------->
 <audio autoplay>
@@ -303,34 +40,45 @@
 <!-------------메뉴---------------->
 
 <div class="wrap" id="menulist">
-<nav id="nav1">
-			<ul id="mainNav">
-				<li id="menuItem">
-					<a href="https://ssarbkimbo12.github.io/K_traditional/" target="_blank" class="style2"><b>Korean traditional</b></a>
-				</li>
-			</ul>
-</nav>
+	
+	<div id="menu1_hover">
+	
+	<div id="menu1">
+		<a href="https://ssarbkimbo12.github.io/K_traditional/" target="_blank">
+		<img id="menu_traditional" src="./source/menu1.png">
+		<p class="style2"><b>Korean traditional
+		</b></p>
+		<img id="logo1" src="./source/traditional_logo.png">
+		</a>
+	</div>
+	</div>
 
-<nav id="nav2">
-		<ul id="mainNav2">
-			<li id="menuItem2">
-				<a href="https://ssarbkimbo12.github.io/J_modern/" target="_blank" class="style1"><em><b>Japanese modern</b></em></a>
-			</li>
-		</ul>
-</nav>
 
-<nav id="nav3">
-		<ul id="mainNav3">
-			<li id="menuItem3">
-				<a href="#"><img src="./source/logo.png"></a>
-			</li>
-		</ul>
-</nav>
+		<div id="menu2_hover">
+	<div id="menu2">
+		<a href="https://ssarbkimbo12.github.io/J_modern/" target="_blank">
+		<img id="menu_modern" src="./source/menu2.png">
+		<p class="style1"><b><em>Japanese modern</em>
+		</b></p>
+		<img id="logo2" src="./source/modern_logo.png">
+		</a>
+	</div>
+	</div>
+
+
+	<div id="menu3_hover">
+	<div id="menu3">
+		<a href="#" target="_blank">
+		<img id="logo3" src="./source/logo.png">
+		</a>
+	</div>
+	</div>
+	
 
 </div>
 
 <!------------top---------------->
-<a href="#menulist" class="style1" target="_new">
+<a href="#back1" class="style1" target="_new">
 				<p id="top" style="color: #aa2c13; font-size:1.4em;"><em><b>TOP^</b></em>
 				</p>
 			</a>
@@ -388,7 +136,7 @@
 				<img src="./source/section3_box1.png" id="section3_box1">
 				<img src="./source/section3_img1.png" id="section3_img1" >
 				<img src="./source/section3_arrow1.png" id="section3_arrow1">
-				<p id="section3_text1" class="style2"> <b>go to korean traditional style</b></p>
+				<p id="section3_text1" class="style2"> <b>korean traditional style</b></p>
 			</div>	
 		</a>
 
@@ -397,7 +145,7 @@
 				<img src="./source/section3_box2.png" id="section3_box2">
 				<img src="./source/section3_img2.png" id="section3_img2" >
 				<img src="./source/section3_arrow2.png" id="section3_arrow2">
-				<p id="section3_text2" class="style1"> <b><em>go to japanese modern style</em></b></p>
+				<p id="section3_text2" class="style1"> <b><em>japanese modern style</em></b></p>
 			</div>	
 		</a>
 		</div>
@@ -411,6 +159,29 @@
 				<em><br>Harmony of two different <br>architecture style</em>
 			</p>
 
+			<a href="#" target="_blank">	
+				<div id="footer_hover2">
+				<img id="footer_circle2" src="./source/footer_circle.png">
+				<img id="footer_H" src="./source/logo.png">
+			</div>
+			</a>
+
+
+
+			<a href="https://ssarbkimbo12.github.io/K_traditional/" target="_blank">	
+				<div id="footer_hover">
+				<img id="footer_circle" src="./source/footer_circle.png">
+				<img id="footer_K" src="./source/footer_K.png">
+				</div>
+			</a>
+
+			<a href="https://ssarbkimbo12.github.io/J_modern/" target="_blank">
+				<div id="footer_hover3">
+				<img id="footer_circle3" src="./source/footer_circle.png">
+				<img id="footer_J" src="./source/footer_J.png">
+				</div>
+		   	</a>
+
 			<p class="style1" id="footer-text3">
 				<em>Bokyung kim<br>ssarbkimbo12@hknu.ac.kr | 82+10-2475-4726</em><br><em>@shinin9_9reatly_<br>
 				Dangwang-dong,Anseong of Korea<br>Department of digital contents design<br>Hankyong national univ.</em>
@@ -421,28 +192,6 @@
 			</div>
 		</div>
 </footer>
-
-<!--loader
-
-<div id="loader"></div>
-
-<div style="display:none;" id="myDiv" class="animate-bottom">
-</div>
-
-<script>
-var myVar;
-
-function myFunction() {
-    myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}-->
-</script>
-
-
 
 </body>
 </html>
